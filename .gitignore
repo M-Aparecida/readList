@@ -1,0 +1,62 @@
+# --- Python & Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# --- Variáveis de Ambiente e Segredos (MUITO IMPORTANTE) ---
+.env
+.env.local
+.env.*
+
+# --- Ambientes Virtuais ---
+.venv/
+venv/
+env/
+ENV/
+.virtualenvs/
+
+# --- Frontend (Node/React) ---
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/dist/
+frontend/build/
+frontend/.eslintcache
+
+# --- IDEs e Editores ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
